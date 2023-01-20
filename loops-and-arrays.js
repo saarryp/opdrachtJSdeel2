@@ -4,7 +4,19 @@
 // Zorg ervoor dat dit ook zou werken als de array wel 100 of 200 namen zou bevatten!
 // ==========================================
 
-const names = ["Henk", "Piet", "Fred", "Joop"];
+const names = ["Henk", "Piet", "Fred", "Joop", "Harry"];
+
+
+
+for (let i=0; i<names.length; i++) {
+    console.log(names.at(i) + "je")
+    console.log(i);
+}
+
+for (let i = 5; i>0 ; i--) {
+    console.log(i)
+}
+
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
