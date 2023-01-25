@@ -75,3 +75,15 @@ for (i = 0; i < 15; i++) {
 // >> 9
 // ==========================================
 
+const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+for (i = 0; i < 10; i++); {
+    if (numbers[i] >= 3) {
+        console.log(numbers[i], ">");
+    }
+} else {
+    (numbers[i] >= 6) {
+        console.log(numbers[i], ">>");
+    }
+}
+/*kom er niet uit*/
