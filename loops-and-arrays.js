@@ -36,10 +36,7 @@ for (let i = 0; i < numbers.length; i++) {
     if (numbers[i] % 2 === 0) {
         numbers[i] = numbers[i] * 2;
     }
-    else /*(numbers [i] % 2 !== 0) {*/
-        numbers[i]= numbers[i] * 3;
-    /*}*/
-}
+
 console.log(numbers);
 
 
@@ -69,7 +66,6 @@ for (i=0; i<squares.length; i++) {
     let volume = Math.pow (squares[i], 3);
     console.log("the volume" + squares[i] + "is" + volume);
 }
-
 
 
 // Verwachtte uitkomsten:
