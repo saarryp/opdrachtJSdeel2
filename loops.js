@@ -77,13 +77,18 @@ for (i = 0; i < 15; i++) {
 
 const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-for (i = 0; i < 10; i++); {
-    if (numbers[i] >= 3) {
-        console.log(numbers[i], ">");
-    }
-} else {
-    (numbers[i] >= 6) {
-        console.log(numbers[i], ">>");
+for (i = 0; i < 10; i++) {
+    if (i <= 3) {
+        console.log(i)
+    } else if (i <= 6) {
+        console.log(">" + i)
+    } else {
+        console.log(">>" + i)
     }
 }
-/*kom er niet uit*/
+
+
+
+
+
+

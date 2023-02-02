@@ -9,13 +9,13 @@ const names = ["Henk", "Piet", "Fred", "Joop", "Harry"];
 
 
 for (let i=0; i<names.length; i++) {
-    console.log(names.at(i) + "je")
+    console.log(names [i] + "je")
     console.log(i);
 }
 
-for (let i = 5; i>0 ; i--) {
-    console.log(i)
-}
+//for (let i = 5; i>0 ; i--) {
+    //console.log(i)//
+//}
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
@@ -64,14 +64,13 @@ console.log(numbers);
 
 const squares = [30, 2, 8, 24, 11];
 
-/*NOTE TO MYSELF vierkant is lengte x breedte  ZE WILLEN L X B X H EN IS DUS 3 MAAL HETZELFDE GETAL VAN DE CONST SQUARES*/
 
 for (i=0; i<squares.length; i++) {
     let volume = Math.pow (squares[i], 3);
     console.log("the volume" + squares[i] + "is" + volume);
 }
 
-/*console.log(squares)*/
+
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
